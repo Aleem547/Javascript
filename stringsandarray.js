@@ -33,4 +33,11 @@
 // months.unshift("june");
 // months.unshift("july");
 
+ //splice
+//  let months=["January","July","march","august"];
+//  months.splice(0,2,"july","june")
 
+// let lang=['c','c++','html','javascript','python','java','c#','sql'];
+// lang.reverse().indexOf("javascript");
+
+ let game=[['X',null,'0'],[null,"X","null"],["0",null,"X"]];
