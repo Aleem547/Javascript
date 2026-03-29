@@ -116,26 +116,70 @@
 // console.log(str);
 
 //lexical scope
-function outerfunc() {
-    let x = 5;
-    let y = 6;
-    function innerfunc() {  //function scope
-        let a = 10;
-        console.log(x);
-        console.log(y);
-    }
-    innerfunc();
-}
+// function outerfunc() {
+//     let x = 5;
+//     let y = 6;
+//     function innerfunc() {  //function scope
+//         let a = 10;
+//         console.log(x);
+//         console.log(y);
+//     }
+//     innerfunc();
+// }
 //function expression
-let name = "aleem";
-let x = 5;
+// let name = "aleem";
+// let x = 5;
 
-let sum = function (a, b) {
-    return a + b;
-}
-let hello = function () {
-    console.log("hello");
-}
-hello = function() {
-    console.log("namaste");
+// let sum = function (a, b) {
+//     return a + b;
+// }
+// let hello = function () {
+//     console.log("hello");
+// }
+// hello = function() {
+//     console.log("namaste");
+//     }
+
+//higher order function
+// function multipleGreet(func,count){
+//     for (let i=1;i<=count;i++){
+//         func();
+//     }    
+// }
+// let greet=function(){
+//     console.log("hello");
+// }
+// multipleGreet(function(){console.log("One piece")},1000);
+
+//return higher order function
+// function OddorEvenFactory(request) {
+//     if (request == "odd") {
+//         let odd = function (n) {
+//             console.log(!(n % 2 == 0));
+//         }
+//         return odd;
+//     }else if (request == "even") {
+//             let even = function (n) {
+//                 console.log((n % 2 == 0));
+//             }
+//             return even;
+//         }else{
+//             console.log("the no is worng");
+//         }
+//     }
+// let request="odd";
+
+//method
+const calculator={
+    num:55,
+    add:function(a,b){
+        return a+b;
+    },
+    sub:function(a,b){
+        return a+b;
+    },
+    mul:function(a,b){
+        return a*b;
     }
+
+};
