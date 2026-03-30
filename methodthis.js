@@ -44,15 +44,39 @@
 
 // console.log("welcome to");
 
-console.log("hi there");
-let id =setInterval(() => {
-    console.log("javascript ");  
-}, 4000); 
+// console.log("hi there");
+// let id =setInterval(() => {
+//     console.log("javascript ");  
+// }, 4000); 
 
-console.log(id);
+// console.log(id);
 
-let id2=setInterval(()=>{
-    console.log("hello world");
-},3000);
+// let id2=setInterval(()=>{
+//     console.log("hello world");
+// },3000);
 
-console.log(id2);
+// console.log(id2);
+
+const student = {
+    name: "aleem",
+    marks: 95,
+    prop: this, //global scope
+    getName: function () {
+        console.log(this);
+        return this.name;
+    },
+    getMarks: () => {
+        console.log(this); //parent's scope -> window
+        return this.marks;
+    },  
+    getInfo1: function () {
+        setTimeout(() => {
+        console.log(this); //student
+        }, 2000);
+    },
+    getInfo2: function () {
+        setTimeout(function () {
+        console.log(this); //window
+        }, 2000);
+    },    
+};    
