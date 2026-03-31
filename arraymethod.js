@@ -111,5 +111,16 @@
 // }
 
 //Destruction
-let names=["tony","bruce","peter","steve","peter","tom","daredevil","punisher"];
-let [winner,runnerUp,secondRunnerUp,...others]=names;
+// let names=["tony","bruce","peter","steve","peter","tom","daredevil","punisher"];
+// let [winner,runnerUp,secondRunnerUp,...others]=names;
+
+//Destruction(objects)
+// const student={
+//     name:"aleem",
+//     age:23,
+//     class:9,
+//     subject:["hindi","urud","english","math"],
+//     username:"aleem547@gmail.com",
+//     password:"abcd"
+// };
+// let {username:user,password:secret,city="delhi"}=student;

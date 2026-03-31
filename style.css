@@ -1,0 +1,12 @@
+.red{
+    color:red;
+}
+
+.grey{
+    color:grey;
+}
+
+.box{
+    border: 1px solid pink;
+    background-color: rgb(135, 111, 111);
+}
