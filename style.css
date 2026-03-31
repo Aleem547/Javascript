@@ -1,4 +1,4 @@
-.red{
+/* .red{
     color:red;
 }
 
@@ -9,4 +9,15 @@
 .box{
     border: 1px solid pink;
     background-color: rgb(135, 111, 111);
+} */
+
+
+body{
+    text-align: center; 
+}
+div{
+    height:100px;
+    width:500px;
+    border:solid black;
+    margin:auto;
 }
