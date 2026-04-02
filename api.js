@@ -30,5 +30,5 @@ async function getFacts() {
     } catch (e) {
         console.log("error - ", e);
     }
-    console.log("bye");
+    console.log("bye");``
 }

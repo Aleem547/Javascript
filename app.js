@@ -98,7 +98,7 @@
 //     console.log("Popcorn is not available");
 // }
 
-//NESTED LOOPS
+//NESTED CONDITIONALS
 // let marks=90;
 // if(marks>=33){
 //     console.log("PASS");
