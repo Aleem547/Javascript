@@ -70,13 +70,10 @@ class Student extends Person{
          super(name,age)//parent constructor is being called
         this.marks=marks;
     }
-    
-    
 }
 class Teacher extends Person{
     constructor(name,age,subject){
        super(name,age)//parent constructor is being called
         this.subject =subject;
-    }
-    
+    }   
 }
